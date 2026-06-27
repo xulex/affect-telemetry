@@ -74,7 +74,7 @@ import tkinter as tk
 # Paths and defaults
 # =============================================================================
 
-THESIS_DIR        = Path('/Users/Shared/thesis-phase1')
+THESIS_DIR        = Path(os.environ.get("THESIS_DIR", Path(__file__).resolve().parent))
 SESSIONS_DIR      = THESIS_DIR / 'sessions'
 PARTICIPANTS_DIR  = THESIS_DIR / 'participants'
 START_SESSION_SH  = THESIS_DIR / 'start_session.sh'

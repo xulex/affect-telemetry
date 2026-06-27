@@ -9,7 +9,7 @@ that modal, so this tool reproduces it: same four questions, same options, same
 EN/PT labels, and it writes the SAME file the controller writes, in the SAME
 schema, so the analysis cannot tell the difference:
 
-    /Users/Shared/thesis-phase1/participants/<PID>/demographics.json
+    $THESIS_DIR/participants/<PID>/demographics.json
 
 Usage:
     python collect_demographics.py P09
@@ -20,13 +20,14 @@ If --session-id is omitted, the script finds the participant's most recent
 session directory and uses that ID for the record's session_id field.
 """
 
+import os
 import argparse
 import json
 import sys
 import datetime as dt
 from pathlib import Path
 
-THESIS_DIR = Path("/Users/Shared/thesis-phase1")
+THESIS_DIR = Path(os.environ.get("THESIS_DIR", Path(__file__).resolve().parent))
 PARTICIPANTS_DIR = THESIS_DIR / "participants"
 SESSIONS_DIR = THESIS_DIR / "sessions"
 

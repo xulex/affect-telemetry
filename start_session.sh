@@ -20,7 +20,7 @@ PARTICIPANT_ID="${2:-self}"
 
 # THESIS_DIR is the fixed shared project root. Do not derive from $HOME -
 # different operator users (xulex, LABamico) both reach it via this path.
-THESIS_DIR="/Users/Shared/thesis-phase1"
+THESIS_DIR="${THESIS_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" && pwd)}"
 VENV_PYTHON="$THESIS_DIR/.venv/bin/python"
 OSQUERY_LOG="$THESIS_DIR/osquery_logs/osqueryd.results.log"
 

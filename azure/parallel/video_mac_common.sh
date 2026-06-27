@@ -2,7 +2,7 @@
 # Shared paths for Mac-side video OCR batch scripts.
 set -euo pipefail
 
-THESIS="${THESIS:-/Users/Shared/thesis-phase1}"
+THESIS="${THESIS:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)}"
 KEY="${KEY:-$HOME/.ssh/xulex-keyAzure.pem}"
 VM_USER="${VM_USER:-xulex}"
 ASSIGNMENTS="${ASSIGNMENTS:-$THESIS/azure/parallel/vm_video_assignments.env}"

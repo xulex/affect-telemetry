@@ -31,6 +31,7 @@ OUTPUT FIELDS (per session)
 """
 
 from __future__ import annotations
+import os
 
 import argparse
 import csv
@@ -427,7 +428,7 @@ def main() -> None:
     ap.add_argument('session_dirs', nargs='*', help='Session directory path(s)')
     ap.add_argument('--all', action='store_true',
                     help='Analyze every session under --sessions-root')
-    ap.add_argument('--sessions-root', default='/Users/Shared/thesis-phase1/sessions',
+    ap.add_argument('--sessions-root', default=str(Path(os.environ.get("THESIS_DIR", Path(__file__).resolve().parent.parent)) / 'sessions'),
                     help='Root folder containing P##_TIMESTAMP session dirs')
     ap.add_argument('--write-json', action='store_true',
                     help='Write ai_usage_report.json into each session dir')

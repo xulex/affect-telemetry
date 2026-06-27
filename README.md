@@ -58,6 +58,26 @@ to the relevant apps. OBS (with WebSocket) and the osquery daemon are installed
 separately. Facial AU extraction runs in a **separate GPU environment**
 (`requirements-au.txt`); see `azure/` and `colab/`.
 
+## Configuration
+
+All scripts resolve their working directory from the repository location by
+default, so a fresh clone runs without edits. To point them at a different data
+root, set one environment variable:
+
+```bash
+export THESIS_DIR=/path/to/your/checkout
+```
+
+The osquery daemon config is the one exception: `osquery_thesis.conf` is read by
+the daemon as strict JSON and cannot use environment variables, so it ships as a
+**template**. Before deploying it, replace the placeholders:
+
+- `__THESIS_DIR__` → the absolute path to your checkout
+- `__USER1__`, `__USER2__` → the macOS account names whose own activity should be
+  filtered out of the file-event stream (e.g., the researcher and operator accounts)
+
+then copy it to `/private/var/osquery/osquery.conf` and restart the daemon.
+
 ## Running a session
 
 1. Reboot the machine at the start of a session day (re-establishes the osquery

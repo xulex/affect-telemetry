@@ -13,7 +13,7 @@ wasted 26-minute participant session.
 Run it right before each session (the operator does this, participant not yet
 in the room):
 
-    cd /Users/Shared/thesis-phase1
+    cd $THESIS_DIR
     source .venv/bin/activate
     python preflight_check.py
 
@@ -27,7 +27,7 @@ import sys
 import time
 from pathlib import Path
 
-THESIS_DIR = Path("/Users/Shared/thesis-phase1")
+THESIS_DIR = Path(os.environ.get("THESIS_DIR", Path(__file__).resolve().parent))
 OSQUERY_LOG = THESIS_DIR / "osquery_logs" / "osqueryd.results.log"
 CREDS = THESIS_DIR / ".obs_credentials"
 
@@ -70,7 +70,7 @@ def check_osquery():
 
     Previous approach probed by writing files into THESIS_DIR and waiting for
     file_events to appear, but the osquery conf explicitly excludes that path
-    (/Users/Shared/thesis-phase1/%) so the probe never fired. Instead we read
+    ($THESIS_DIR/%) so the probe never fired. Instead we read
     the tail of the log and verify a recent unixTime: running_apps_snapshot
     fires every 5s, so a healthy daemon will always have an entry < 90s old.
     """

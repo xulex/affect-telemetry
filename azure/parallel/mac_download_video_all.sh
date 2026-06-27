@@ -42,7 +42,7 @@ import json
 from pathlib import Path
 import os
 
-th = Path(os.environ.get("THESIS", "/Users/Shared/thesis-phase1"))
+th = Path(os.environ.get("THESIS", os.getcwd()))
 staging = Path(os.environ.get("STAGING", Path.home() / "Downloads/thesis-video-download"))
 
 for p in sorted(staging.glob("*/ai_video_report.json")):

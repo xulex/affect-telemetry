@@ -12,15 +12,16 @@ IMPORTANT: osquery events expire from the global log after events_expiry
 events will already be gone and the slice will be empty.
 
 Usage:
-    python reslice_osquery.py /Users/Shared/thesis-phase1/sessions/P01_20260602T073103Z
+    python reslice_osquery.py $THESIS_DIR/sessions/<SESSION_ID>
 """
 
+import os
 import json
 import sys
 import datetime as dt
 from pathlib import Path
 
-THESIS_DIR = Path('/Users/Shared/thesis-phase1')
+THESIS_DIR = Path(os.environ.get("THESIS_DIR", Path(__file__).resolve().parent))
 OSQUERY_LOG = THESIS_DIR / 'osquery_logs' / 'osqueryd.results.log'
 RECORDINGS_DIR = THESIS_DIR / 'recordings'
 

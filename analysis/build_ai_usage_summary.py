@@ -13,6 +13,7 @@ USAGE
 """
 
 from __future__ import annotations
+import os
 
 import argparse
 import json
@@ -22,8 +23,8 @@ from pathlib import Path
 
 from detect_ai_usage import analyze_session as analyze_layer1
 
-DEFAULT_SESSIONS_ROOT = Path('/Users/Shared/thesis-phase1/sessions')
-DEFAULT_SAFARI_DB = Path('/Users/Shared/thesis-phase1/sessions/Safari-History.db')
+DEFAULT_SESSIONS_ROOT = Path(os.environ.get("THESIS_DIR", Path(__file__).resolve().parent.parent)) / 'sessions'
+DEFAULT_SAFARI_DB = DEFAULT_SESSIONS_ROOT / 'Safari-History.db'
 FALLBACK_OUTPUT_ROOT = Path(__file__).resolve().parent / 'output'
 
 BROWSER_SIGNAL_SEC = 60

@@ -17,6 +17,7 @@ OUTPUT (per session)
 """
 
 from __future__ import annotations
+import os
 
 import argparse
 import json
@@ -51,8 +52,8 @@ AI_DOMAIN_PATTERNS: list[tuple[re.Pattern[str], str]] = [
     ]
 ]
 
-DEFAULT_SAFARI_DB = Path('/Users/Shared/thesis-phase1/sessions/Safari-History.db')
-DEFAULT_SESSIONS_ROOT = Path('/Users/Shared/thesis-phase1/sessions')
+DEFAULT_SAFARI_DB = DEFAULT_SESSIONS_ROOT / 'Safari-History.db'
+DEFAULT_SESSIONS_ROOT = Path(os.environ.get("THESIS_DIR", Path(__file__).resolve().parent.parent)) / 'sessions'
 FALLBACK_OUTPUT_ROOT = Path(__file__).resolve().parent / 'output'
 
 

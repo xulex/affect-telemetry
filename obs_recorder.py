@@ -8,7 +8,7 @@ data stream scripts.
 Requires:
   - OBS Studio (28+) running with WebSocket server enabled
   - A scene named "ThesisPhase1" pre-configured with screen + webcam sources
-  - Credentials file at /Users/Shared/thesis-phase1/.obs_credentials (mode 600) containing:
+  - Credentials file at $THESIS_DIR/.obs_credentials (mode 600) containing:
       OBS_HOST=localhost
       OBS_PORT=4455
       OBS_PASSWORD=<your password>
@@ -99,17 +99,17 @@ def main():
     parser.add_argument("--scene", type=str, default="ThesisPhase1",
                         help="OBS scene to activate before recording")
     parser.add_argument("--credentials", type=str, default=None,
-                        help="Path to credentials file (default: /Users/Shared/thesis-phase1/.obs_credentials)")
+                        help="Path to credentials file (default: $THESIS_DIR/.obs_credentials)")
     args = parser.parse_args()
 
-    cred_path = args.credentials or "/Users/Shared/thesis-phase1/.obs_credentials"
+    cred_path = args.credentials or os.path.join(os.environ.get("THESIS_DIR", os.path.dirname(os.path.abspath(__file__))), ".obs_credentials")
     if not os.path.exists(cred_path):
         print(f"ERROR: credentials file not found at {cred_path}")
         print("Create it with:")
-        print("  echo 'OBS_HOST=localhost' > /Users/Shared/thesis-phase1/.obs_credentials")
-        print("  echo 'OBS_PORT=4455' >> /Users/Shared/thesis-phase1/.obs_credentials")
-        print("  echo 'OBS_PASSWORD=<your_password>' >> /Users/Shared/thesis-phase1/.obs_credentials")
-        print("  chmod 600 /Users/Shared/thesis-phase1/.obs_credentials")
+        print("  echo 'OBS_HOST=localhost' > $THESIS_DIR/.obs_credentials")
+        print("  echo 'OBS_PORT=4455' >> $THESIS_DIR/.obs_credentials")
+        print("  echo 'OBS_PASSWORD=<your_password>' >> $THESIS_DIR/.obs_credentials")
+        print("  chmod 600 $THESIS_DIR/.obs_credentials")
         sys.exit(1)
 
     mode = os.stat(cred_path).st_mode & 0o777
@@ -236,7 +236,7 @@ def main():
         # we started, and move that. This keeps the recording from being
         # orphaned when stop_record() returns no path.
         print("  OBS did not return an output path; searching recordings folder...")
-        rec_dir = Path("/Users/Shared/thesis-phase1/recordings")
+        rec_dir = Path(os.environ.get("THESIS_DIR", os.path.dirname(os.path.abspath(__file__)))) / "recordings"
         start_unix = start_dt.timestamp()
         candidates = []
         if rec_dir.is_dir():

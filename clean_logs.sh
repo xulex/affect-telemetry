@@ -9,7 +9,7 @@
 #   bash clean_logs.sh            # show sizes, then empty the global osquery log
 #   bash clean_logs.sh --all      # also empty stale per-stream .log files in sessions/
 
-THESIS_DIR="/Users/Shared/thesis-phase1"
+THESIS_DIR="${THESIS_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" && pwd)}"
 GLOBAL_LOG="$THESIS_DIR/osquery_logs/osqueryd.results.log"
 
 echo "Disk before:"
