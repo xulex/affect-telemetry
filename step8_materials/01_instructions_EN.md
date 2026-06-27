@@ -1,0 +1,86 @@
+# Meridian Consulting — Session Brief
+
+## Welcome
+
+Thanks for taking part. The next 26 minutes ask you to step into a realistic
+work scenario as a senior associate at **Meridian Consulting**, a mid-sized
+European strategy firm. You'll read some background, analyse a dataset, and
+write an email to a partner recommending what to do next.
+
+This is meant to feel like real consulting work. There is no trick or hidden
+test of your knowledge. Approach the materials the way you would any work
+brief that lands on your desk.
+
+
+## The scenario
+
+Meridian was hired four months ago by **Halestrom**, a B2B SaaS company
+selling project management software to European mid-market clients. Halestrom
+wants to decide where to focus its growth investment for the coming year.
+
+Three customer segments are in scope:
+
+- **Segment A — Enterprise** (companies with 500+ employees)
+- **Segment B — Mid-market** (50–499 employees)
+- **Segment C — SMB** (under 50 employees)
+
+Halestrom ran a pilot campaign across all three segments last quarter to test
+how each responds to a unified outreach approach. The results have just been
+compiled. The partner running the engagement, Carla Reis, needs your read on
+what the data says before she presents to the client on Friday.
+
+
+## What you'll do (suggested timings)
+
+| Block | Time      | Activity                                       |
+|-------|-----------|------------------------------------------------|
+| 1     | 5 minutes | Read the three documents on your desktop       |
+| 2     | 6 minutes | Open `halestrom_pilot.xlsx` and explore the data |
+| 3     | 6 minutes | Draft your email to Carla in Apple Mail        |
+| 4     | 4 minutes | Refine the email, attach your files, hit Send  |
+
+These times are guidance, not deadlines. You can move between blocks as you
+need to. A floating checklist in the corner of your screen tracks which block
+you're on and how much time is left in the session overall.
+
+
+## Tools at your disposal
+
+- **Apple Mail** is set up with Meridian's email account
+- **Excel** is installed; you may use any of its features (pivot tables,
+  formulas, charts) as you would normally
+- **Internet access** is available; you may use any websites, search engines,
+  or AI assistants (ChatGPT, Claude, Gemini, etc.) at any point during the
+  session. Many consultants use AI tools in their daily work. Whether and
+  how you use one is entirely up to you.
+- Anything else you would normally open during work (Notes, TextEdit, browser
+  tabs for research) is fine to use
+
+
+## What the email should contain
+
+Carla wants a short, clear email she can forward to the client. Aim for
+roughly 200 words. Include:
+
+- Your recommendation: which segment(s) to prioritise, which to cut, which
+  to revise
+- The evidence supporting your recommendation (qualitative and quantitative)
+- Any caveats or risks Carla should be aware of
+- Attach your Excel file with any analysis you ran
+
+
+## A few small things
+
+- Your typing rhythm and mouse movement are being recorded. The **content**
+  of what you type is not recorded, only the timing. You can write freely.
+- The heart rate strap should stay on for the full session
+- If you need to step away or stop the session for any reason, just say so
+- There are three short check-in questions at minutes ~4, ~12, and ~19 that
+  ask how you're feeling about the work. Answer honestly — there are no
+  right answers
+
+
+## When you're ready
+
+Let the researcher know you've read this. They'll start the session timer
+and you can begin reading the documents. Good luck.

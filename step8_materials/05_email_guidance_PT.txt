@@ -1,0 +1,55 @@
+# Como escrever o email à Carla
+
+Abra o Apple Mail. A conta já está configurada. Crie um email novo.
+
+## Destinatários
+
+- **Para:**  carla@xule.me
+- **Cc:**    (deixe vazio salvo se tiver motivo para adicionar alguém)
+- **Assunto:** sugira algo específico ao projeto, não genérico.
+  "Halestrom — revisão de segmentos, a minha leitura antes de sexta" é
+  um bom ponto de partida. Ajuste se quiser.
+
+## O que incluir no corpo
+
+Aproximadamente 200 palavras. Os emails reais de consultoria são curtos.
+A Carla quer algo que possa reencaminhar ao Anders com edição mínima.
+
+Uma estrutura útil:
+
+1. **A recomendação principal nas duas primeiras frases.** O que deve a
+   Halestrom fazer? Que segmentos priorizar, cortar ou rever?
+2. **A evidência por trás.** Referenciar tanto os números quantitativos
+   do Excel como o sinal qualitativo das notas da voz do cliente. Seja
+   específico(a).
+3. **Ressalvas e riscos.** Algo para o qual a Carla deve estar preparada
+   quando o Anders pressionar? Algo que os dados não dizem?
+4. **Um pedido claro, se relevante.** A Carla precisa de algo de si antes
+   de sexta?
+
+Tom: entre pares, profissional mas não rígido. É um associado sénior a
+escrever a uma partner com quem trabalha regularmente.
+
+## Anexos
+
+Anexar o ficheiro Excel trabalhado (o ficheiro que analisou e quaisquer
+folhas que adicionou ou modificou). A Carla vai querer ver o seu
+trabalho, não apenas a conclusão.
+
+## Enviar
+
+Clique Enviar quando estiver pronto(a). O envio falhará em silêncio (o
+domínio do destinatário é fictício) mas o email fica na pasta Caixa de
+Saída / Rascunhos e é isso que o investigador vai recolher.
+
+## Perguntas comuns
+
+**Devo pôr alguém em cc?** Não, salvo se tiver um motivo claro. A Carla
+distribui depois.
+
+**E se discordar da leitura inicial da Carla?** Então diga. É exatamente
+para isso que ela está a pedir. Seja direto(a), aponte para a evidência.
+
+**E se ficar sem tempo?** Envie o que tem. O trabalho real de consultoria
+é entregue sob restrição de tempo; preferimos ver a sua melhor tentativa
+no tempo disponível do que uma resposta polida mas parcial.

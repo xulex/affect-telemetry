@@ -1,0 +1,82 @@
+MERIDIAN CONSULTING — INTERNO
+Campanha Piloto Halestrom · Resumo de Resultados · Equipa de Lisboa
+
+Período:       Q3 (13 semanas)
+Preparado:     Sexta-feira da semana passada
+Distribuição:  Equipa do projeto Halestrom, Meridian interno
+
+
+O QUE FIZEMOS
+
+Corremos um piloto de outreach em paralelo nos três segmentos-alvo da
+Halestrom para testar a capacidade de resposta de cada segmento sob uma
+proposta de valor unificada. Mesma mensagem central, mesma cadência de
+outbound, investimento aproximadamente proporcional por segmento. O piloto
+durou 13 semanas. O motor de vendas existente da Halestrom (inbound +
+trials de produto) continuou em paralelo e não está no âmbito desta
+análise.
+
+Os dados completos do piloto estão em halestrom_pilot.xlsx. Abaixo está
+uma leitura narrativa do que os números mostram. Olhe para os dados
+diretamente; não fizemos recomendações neste documento.
+
+
+O QUE OBSERVÁMOS
+
+O volume variou entre os três segmentos, como esperado. O SMB gerou o
+maior número de leads (elevado volume de inbound), o Enterprise o menor
+(ciclos de venda mais longos, lista endereçável mais pequena). O
+Mid-market situou-se no meio.
+
+As taxas de conversão também diferiram. O SMB teve o maior engagement
+no topo do funil (aberturas, cliques, pedidos de demo) mas uma taxa de
+fecho notavelmente inferior. O Enterprise teve os piores indicadores de
+engagement em todas as etapas do funil, mas taxas de fecho mais altas
+entre os que efetivamente avançaram. O Mid-market situou-se de novo no
+meio.
+
+A dimensão dos negócios seguiu a ordem esperada: os negócios Enterprise
+foram substancialmente maiores que os Mid-market, que por sua vez foram
+substancialmente maiores que os SMB. Isto é consistente com a dimensão
+das organizações compradoras.
+
+A duração do ciclo de venda também seguiu a ordem esperada: os ciclos
+Enterprise foram os mais longos, os SMB os mais curtos.
+
+O custo de aquisição de cliente (CAC) variou consideravelmente entre
+segmentos e é um dos números mais importantes da folha de cálculo.
+Incluímos tanto o CAC misto (despesa total do piloto / negócios fechados)
+como o CAC específico de cada segmento (despesa do segmento / negócios
+fechados do segmento).
+
+Uma primeira leitura apenas dos "negócios fechados" conta uma história.
+Uma leitura que incorpore o valor do negócio e métricas de lifetime
+conta outra. Encorajamos olhar para ambos antes de formar uma opinião.
+
+
+VOZ DO CLIENTE
+
+Documento separado em anexo, com citações anonimizadas de uma amostra de
+prospects engaged no piloto (closed-won, closed-lost, e ainda em
+processo). Vale a pena ler para textura qualitativa antes de tirar
+conclusões só do lado quantitativo.
+
+
+NOTAS E RESSALVAS
+
+A duração do piloto (13 semanas) é curta para ciclos de venda
+Enterprise. Algumas oportunidades Enterprise ainda estão em pipeline no
+fecho do piloto. A coluna de negócios fechados reflete apenas o que
+fechou dentro da janela do piloto; oportunidades ainda ativas estão
+contadas separadamente.
+
+A base de clientes existente da Halestrom está sobrerrepresentada em
+Mid-market. Alguns dos fechos Mid-market durante o piloto podem ter sido
+impulsionados pelo reconhecimento de marca pré-existente em vez do
+outreach específico do piloto. Isto é difícil de separar e não tentámos
+fazê-lo.
+
+O Anders Lindqvist (CEO) tem sido claro nas reuniões de steering sobre
+a sua preferência por Mid-market e SMB. A Carla pediu-nos para manter
+a análise independente desse prior. Por favor forme a sua própria
+opinião a partir dos dados antes de ler o memo da Carla.

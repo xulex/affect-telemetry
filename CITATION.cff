@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "I'm Not a Robot: a UEBA-as-affect acquisition and analysis pipeline"
+abstract: >-
+  An open-source, single-machine pipeline that repurposes cybersecurity User and
+  Entity Behavior Analytics (UEBA) telemetry, keystroke and mouse dynamics,
+  application focus, and process/file events, to sense affective states and broken
+  Flow in knowledge workers, validated against self-reported affect, heart-rate
+  variability, and facial action units. Released as the methodological contribution
+  of a master's thesis.
+type: software
+authors:
+  - family-names: Amato
+    given-names: Norton
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # add your ORCID
+license: MIT
+repository-code: "https://github.com/xulex/thesis-phase1"
+keywords:
+  - affective computing
+  - UEBA
+  - behavioral biometrics
+  - heart-rate variability
+  - facial action units
+  - flow
+  - human-computer interaction
+version: "1.0.0"
+date-released: "2026-06-13"
+references:
+  - type: thesis
+    title: "I'm Not a Robot: repurposing UEBA telemetry to sense affect and protect Flow in knowledge work"
+    authors:
+      - family-names: Amato
+        given-names: Norton
+    institution:
+      name: "Steinbeis University / Berlin School of Creative Leadership (BSCL)"
+    thesis-type: "Master's thesis (eMBA)"
+    year: 2026
+# When the Zenodo archive is minted, add:
+# doi: "10.5281/zenodo.XXXXXXX"

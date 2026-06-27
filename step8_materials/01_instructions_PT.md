@@ -1,0 +1,90 @@
+# Meridian Consulting — Briefing da Sessão
+
+## Bem-vindo(a)
+
+Obrigado por participar. Os próximos 26 minutos pedem-lhe que assuma um
+cenário de trabalho realista, no papel de associado sénior na **Meridian
+Consulting**, uma consultora de estratégia europeia de média dimensão. Vai
+ler algum contexto, analisar um conjunto de dados e escrever um email a um
+partner com uma recomendação.
+
+Isto deve parecer-se com trabalho real de consultoria. Não há truques nem
+testes ocultos ao seu conhecimento. Aborde os materiais como abordaria
+qualquer briefing que chegasse à sua secretária.
+
+
+## O cenário
+
+A Meridian foi contratada há quatro meses pela **Halestrom**, uma empresa
+B2B de SaaS que vende software de gestão de projetos a clientes europeus do
+segmento médio. A Halestrom quer decidir onde concentrar o seu investimento
+de crescimento para o próximo ano.
+
+Estão em análise três segmentos de clientes:
+
+- **Segmento A — Enterprise** (empresas com mais de 500 colaboradores)
+- **Segmento B — Mid-market** (50 a 499 colaboradores)
+- **Segmento C — SMB** (menos de 50 colaboradores)
+
+A Halestrom correu uma campanha piloto nos três segmentos no último trimestre
+para testar como cada um responde a uma abordagem unificada. Os resultados
+acabaram de ser compilados. A partner responsável pelo projeto, Carla Reis,
+precisa da sua leitura do que os dados dizem antes de apresentar ao cliente
+na sexta-feira.
+
+
+## O que vai fazer (tempos sugeridos)
+
+| Bloco | Tempo     | Atividade                                            |
+|-------|-----------|------------------------------------------------------|
+| 1     | 5 minutos | Ler os três documentos no ambiente de trabalho       |
+| 2     | 6 minutos | Abrir `halestrom_pilot.xlsx` e explorar os dados     |
+| 3     | 6 minutos | Escrever o email à Carla no Apple Mail               |
+| 4     | 4 minutos | Refinar o email, anexar os ficheiros, clicar Enviar  |
+
+Estes tempos são orientações, não prazos. Pode mover-se entre blocos conforme
+precisar. Um checklist flutuante no canto do ecrã indica em que bloco está
+e quanto tempo resta na sessão.
+
+
+## Ferramentas disponíveis
+
+- O **Apple Mail** está configurado com a conta de email da Meridian
+- O **Excel** está instalado; pode usar quaisquer funcionalidades (tabelas
+  dinâmicas, fórmulas, gráficos) como faria normalmente
+- O **acesso à internet** está disponível; pode usar quaisquer sites,
+  motores de pesquisa ou assistentes de IA (ChatGPT, Claude, Gemini, etc.)
+  em qualquer momento da sessão. Muitos consultores usam ferramentas de IA
+  no seu trabalho diário. Se e como usa uma é inteiramente decisão sua.
+- Qualquer outra coisa que abriria normalmente durante o trabalho (Notas,
+  TextEdit, separadores do browser para pesquisa) pode ser usada
+
+
+## O que o email deve conter
+
+A Carla quer um email curto e claro que possa reencaminhar ao cliente. Aim
+de aproximadamente 200 palavras. Deve incluir:
+
+- A sua recomendação: que segmento(s) priorizar, qual cortar, qual rever
+- A evidência que suporta a sua recomendação (qualitativa e quantitativa)
+- Quaisquer ressalvas ou riscos que a Carla deve ter em conta
+- Anexar o ficheiro Excel com qualquer análise que tenha feito
+
+
+## Algumas pequenas notas
+
+- O seu ritmo de digitação e movimento do rato estão a ser gravados. O
+  **conteúdo** do que escreve não está a ser gravado, apenas o ritmo. Pode
+  escrever livremente.
+- A banda peitoral deve ficar colocada durante toda a sessão
+- Se precisar de se ausentar ou parar a sessão por qualquer motivo, basta
+  dizer
+- Haverá três perguntas de verificação rápida aos minutos ~4, ~12 e ~19 que
+  perguntam como se está a sentir em relação ao trabalho. Responda
+  honestamente — não há respostas certas
+
+
+## Quando estiver pronto(a)
+
+Diga ao investigador que leu este briefing. Ele iniciará o temporizador da
+sessão e poderá começar a ler os documentos. Boa sorte.

@@ -1,0 +1,55 @@
+# Composing your email to Carla
+
+Open Apple Mail. The account is already configured. Compose a new email.
+
+## Recipients
+
+- **To:**  carla@xule.me
+- **Cc:**  (leave empty unless you have a reason to add someone)
+- **Subject:** suggest something specific to the engagement, not generic.
+  "Halestrom segment review — my read before Friday" is a fine starting
+  point. Adjust if you want.
+
+## What to include in the body
+
+Aim for roughly 200 words. Real consulting emails are short. Carla wants
+something she can forward to Anders with minimal editing.
+
+A useful structure:
+
+1. **Headline recommendation in the first two sentences.** What should
+   Halestrom do? Which segments to prioritise, cut, or revise?
+2. **The evidence behind it.** Reference both the quantitative numbers
+   from the Excel and the qualitative signal from the customer voice
+   notes. Be specific.
+3. **Caveats and risks.** Anything Carla should be prepared for when
+   Anders pushes back? Anything the data doesn't tell you?
+4. **A clear ask if relevant.** Does Carla need anything from you before
+   Friday?
+
+Tone: peer-to-peer, professional but not stiff. You're a senior associate
+writing to a partner you work with regularly.
+
+## Attachments
+
+Attach your worked Excel file (the file you analysed and any sheets you
+added or modified). Carla will appreciate seeing your working, not just
+the conclusion.
+
+## Sending
+
+Click Send when you're ready. The send will fail silently (the recipient
+domain is fictitious) but the email lands in your Outbox / Drafts folder
+and that's what the researcher will collect.
+
+## Common questions
+
+**Should I cc anyone?** No, unless you have a clear reason. Carla will
+distribute.
+
+**What if I disagree with Carla's initial read?** Then say so. That's the
+whole point of her asking you. Be direct, point at the evidence.
+
+**What if I run out of time?** Send what you have. Real consulting work
+is delivered under time constraints; we'd rather see your best shot in
+the time available than a polished but partial answer.

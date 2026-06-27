@@ -1,0 +1,78 @@
+PILOTO HALESTROM — NOTAS DA VOZ DO CLIENTE
+Citações anonimizadas de prospects que engaged com o outreach do piloto
+Amostra de 12 nos três segmentos, etapas e resultados variados
+Compilado pela equipa de Lisboa
+
+
+SEGMENTO A — ENTERPRISE
+
+E1 (closed-won, ~470k EUR ACV, serviços financeiros, 1.800 colaboradores)
+"O que nos convenceu no fim foi o processo de security review. A vossa
+equipa tinha SOC 2, ISO, o DPA do RGPD pronto, e o tempo de resposta ao
+security questionnaire foi de quatro dias. A maioria dos vendors que
+avaliamos demora seis semanas. Isso transmite seriedade. Francamente o
+produto é bom mas não é único; a maturidade operacional é que decidiu."
+
+E2 (closed-won, ~520k EUR ACV, indústria, 4.200 colaboradores)
+"O nosso processo de procurement é brutal. O facto de a vossa equipa ter
+um master service agreement que conseguiu fazer redline ao vivo com a
+nossa equipa jurídica numa sessão poupou-nos provavelmente três meses.
+Já abandonámos vendors por causa exatamente desse tipo de fricção."
+
+E3 (closed-lost, indústria, 900 colaboradores)
+"Feedback honesto: o produto impressionou-nos, o processo de venda foi
+apertado, mas não conseguimos um compromisso de preço para além de dois
+anos. A nossa equipa financeira precisa de forecasts a cinco anos e
+vocês não fizeram cotação além dos 24 meses. Fomos com [concorrente]
+que fez. Se tivessem flexibilizado nisso seríamos clientes."
+
+E4 (em pipeline, healthcare, 2.100 colaboradores, potencial ~600k EUR)
+"Isto está a avançar lentamente porque o nosso change-management interno
+é lento, não porque temos dúvidas. Esperamos fechar isto em Q1. Não
+interpretem o silêncio como um não."
+
+
+SEGMENTO B — MID-MARKET
+
+M1 (closed-won, ~58k EUR ACV, retalho, 240 colaboradores)
+"Honestamente a demo vendeu-se sozinha. O vosso concorrente [Atlassian]
+já está no nosso stack e estávamos à procura de algo mais simples. O
+preço estava certo e as integrações cobriam o que precisávamos. Decisão
+rápida."
+
+M2 (closed-lost, agência, 180 colaboradores)
+"Pareceram-nos sólidos mas tínhamos acabado de assinar com [Asana] três
+semanas antes do vosso outreach. Mau timing. Voltem a contactar-nos
+daqui a 18 meses quando o contrato terminar."
+
+M3 (closed-won, indústria, 380 colaboradores)
+"Produto sólido, preço razoável. Somos cliente Halestrom porque já
+usávamos uma versão básica via reseller; isto foi mais um upsell do que
+uma nova aquisição. O vosso outreach calhou em renovação."
+
+M4 (closed-won, serviços profissionais, 95 colaboradores)
+"Trocámos do [Monday.com] sobretudo por preço. O vosso é cerca de 30%
+mais barato no nosso número de seats e o feature gap era aceitável.
+Vitória fácil para a conversa do orçamento."
+
+
+SEGMENTO C — SMB
+
+S1 (closed-won, ~3.2k EUR ACV, agência, 22 colaboradores)
+"Adorei o trial. O fluxo de onboarding foi o mais fluido que vi. O cartão
+entrou em menos de um dia. Se ainda vamos estar a usar daqui a 12 meses
+é outra questão; a equipa já se está a queixar que o UI é demasiado
+complexo para o que precisamos."
+
+S2 (closed-lost, e-commerce, 14 colaboradores)
+"Comecei o trial, nunca terminei o onboarding. Estamos a usar um template
+Notion gratuito. O vosso produto é overkill para a dimensão da nossa
+equipa."
+
+S3 (closed-won, ~2.4k EUR ACV, design studio, 8 colaboradores)
+"Barato, com bom aspeto, faz o que precisamos. Não vou mentir, se
+subirem ligeiramente o preço, trocamos."
+
+S4 (closed-lost, consultoria, 31 colaboradores)
+"Não conseguimos justificar o custo per seat. Estamos a safarmo-nos com
+boards Trello partilhados."

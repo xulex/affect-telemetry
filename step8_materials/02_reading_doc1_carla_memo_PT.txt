@@ -1,0 +1,56 @@
+De:      Carla Reis <c.reis@meridian-consulting.example>
+Para:    Pool de Associados Séniores <associates@meridian-consulting.example>
+Data:    [Segunda-feira desta semana], 09:14
+Assunto: Halestrom — revisão de segmentos, preciso do teu input antes de sexta
+
+Olá,
+
+Briefing rápido antes da reunião de sexta com o cliente. Preciso da tua
+leitura dos dados que vieram do piloto da Halestrom.
+
+Contexto para quem não esteve envolvido no projeto: a Halestrom vende
+software de gestão de projetos, sobretudo a clientes europeus do mid-market.
+São rentáveis mas o crescimento estagnou nos últimos seis trimestres e
+estão a tentar decidir onde investir no próximo ano. O CEO, Anders
+Lindqvist, está convencido de que o futuro está em **mid-market e SMB** —
+já o disse em duas das três reuniões de steering. Acha que o enterprise é
+demasiado lento, demasiado caro de abordar e uma distração face àquilo
+que considera ser a base de clientes "natural" da Halestrom.
+
+Para testar essa visão, corremos um piloto controlado nos três segmentos
+no último trimestre. Mesma abordagem de outreach, mesma proposta de valor,
+investimento aproximadamente proporcional. A equipa em Lisboa compilou os
+resultados na folha de cálculo que vais encontrar no ambiente de trabalho.
+
+**A minha leitura inicial** (e o que vou levar para a reunião de sexta a
+menos que algo nos dados me faça mudar de ideias):
+
+- O Enterprise (Segmento A) parece ser o pior. As taxas de conversão que
+  já vi são fracas. Acho que recomendamos à Halestrom cortar o outreach
+  enterprise e realocar esse orçamento para o Mid-market.
+- O Mid-market (Segmento B) é o vencedor óbvio. Boas conversões, boa
+  velocidade — é aqui que a Halestrom deve apostar em força.
+- O SMB (Segmento C) é mais difícil. O volume é enorme mas a unit
+  economics parece fraca. Estou inclinada para "rever a abordagem ao SMB"
+  — talvez um modelo product-led em vez da campanha outbound que testámos.
+
+Mas por favor olha tu para os dados e diz-me o que vês. Se estou a perder
+alguma coisa, prefiro ouvir-te a ti na quarta do que ter a reunião com o
+partner a explodir na sexta. O Anders vai pressionar com força em qualquer
+recomendação que façamos — ele quer confirmação do seu prior, não
+surpresas.
+
+As notas de feedback de clientes do piloto também estão no ambiente de
+trabalho. Ainda não as li em detalhe; podem ter sinal.
+
+Quero o teu email até ao fim do dia. Mantém-no curto — algo que possa
+reencaminhar ao Anders com edição mínima se a tua leitura coincidir com
+a minha, ou que me dê munições para o contradizer se não coincidir.
+
+Obrigada,
+Carla
+
+
+--
+Carla Reis  |  Partner
+Meridian Consulting  |  Lisboa

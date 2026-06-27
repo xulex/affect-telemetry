@@ -1,0 +1,11 @@
+# Facial Action Unit extraction (stream 6) — separate GPU environment.
+# Runs post-session on a CUDA GPU (Azure NC4as T4 v3, Google Colab, or a local
+# Windows/Linux GPU box), NOT on the macOS lab Mac. See azure/ and colab/.
+#
+# Pinned to the versions validated in the study.
+
+py-feat==0.6.1
+numpy==1.26.4
+torch                      # install the CUDA build matching your GPU/driver
+# RetinaFace (detector) + MobileFaceNet (landmarks) + XGBoost (AUs)
+# + ResMaskingNet (emotion); identity_model disabled (identity_model=None).

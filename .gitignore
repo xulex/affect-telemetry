@@ -1,0 +1,88 @@
+# --- Secrets (never commit) ---
+.obs_credentials
+.env
+.env.*
+*.pem
+*_keyAzure*
+*SAS*
+azure/secrets/
+azure/parallel/vm_assignments.env
+azure/parallel/vm_video_assignments.env
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# --- Participant & lab data (stay on USB / blob / local only) ---
+sessions/
+recordings/
+osquery_logs/
+*.mp4
+*.mov
+*.mkv
+*.avi
+
+# --- Large / generated outputs ---
+facial_au*.csv
+**/colab_work/
+**/chunks/
+/tmp/
+
+# --- Root dev captures (early lab tests; not part of repo) ---
+/polar_*.jsonl
+/input_*.jsonl
+/focused_app_*.jsonl
+/*_final.jsonl
+/*_validation.jsonl
+/test_recording*.mp4
+
+# --- Azure / cloud scratch ---
+.azure/
+
+# --- Participant PII (never leaves machine) ---
+participants/
+
+# --- Project docs (local reference only) ---
+\!PROJDOCS/
+
+# --- Claude Code local config ---
+.claude/
+
+# --- Scratch / diagnostic files ---
+*.bak
+*.bak[0-9]*
+*.presudo.bak
+/50
+/_instructionsLAB.txt
+
+# --- Internal handover docs (local only, not for public release) ---
+CLAUDE.md
+HANDOVER.md
+
+# --- Derived participant data / analysis outputs (never publish) ---
+analysis/ai_usage_summary.csv
+analysis/output/
+sessions/Safari-History.db*
+
+# --- Internal work orders (local only) ---
+WORKORDER_*.md
+
+# --- VM assignment files (IPs / session map; keep the .example) ---
+azure/parallel/vm_assignments.env
+azure/parallel/vm_video_assignments.env
+azure/parallel/sessions.batch

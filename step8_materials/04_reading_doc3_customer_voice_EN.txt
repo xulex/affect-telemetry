@@ -1,0 +1,75 @@
+HALESTROM PILOT — CUSTOMER VOICE NOTES
+Anonymised quotes from prospects who engaged with the pilot outreach
+Sample of 12 across all three segments, varied stages and outcomes
+Compiled by the Lisbon team
+
+
+SEGMENT A — ENTERPRISE
+
+E1 (closed-won, ~470k EUR ACV, financial services, 1,800 employees)
+"What sold us in the end was the security review process. Your team had
+SOC 2, ISO, the GDPR DPA ready, and the security questionnaire turnaround
+was four days. Most vendors we evaluate take six weeks. That signals
+seriousness. Frankly the product is good but not unique; the operational
+maturity is what made the decision."
+
+E2 (closed-won, ~520k EUR ACV, manufacturing, 4,200 employees)
+"Our procurement process is brutal. The fact that your team had a master
+service agreement template they could redline live with our legal team in
+one session saved us probably three months. We've ditched vendors over
+exactly this kind of friction before."
+
+E3 (closed-lost, manufacturing, 900 employees)
+"Honest feedback: the product impressed us, your sales process was tight,
+but we couldn't get a price commitment beyond two years. Our finance team
+needs five-year forecasts and you wouldn't quote past 24 months. We went
+with [competitor] who would. If you'd flexed on that we'd be customers."
+
+E4 (still in pipeline, healthcare, 2,100 employees, ~600k EUR potential)
+"This is moving slowly because our internal change-management review is
+slow, not because we have doubts. We expect to close this in Q1. Don't
+take the silence as a no."
+
+
+SEGMENT B — MID-MARKET
+
+M1 (closed-won, ~58k EUR ACV, retail, 240 employees)
+"Honestly the demo sold itself. Your competitor [Atlassian] is in our
+stack already and we were looking for something simpler. The price was
+right and the integrations covered what we needed. Quick decision."
+
+M2 (closed-lost, agency, 180 employees)
+"You came across as solid but we'd just signed with [Asana] three weeks
+before your outreach. Bad timing. Re-engage us in 18 months when our
+contract is up."
+
+M3 (closed-won, manufacturing, 380 employees)
+"Solid product, reasonable price. We're a Halestrom customer because we
+were already using a basic version through a reseller; this was an upsell
+more than a new acquisition. Your outreach happened to land at renewal."
+
+M4 (closed-won, professional services, 95 employees)
+"Switched from [Monday.com] mostly on price. Yours is roughly 30% cheaper
+at our seat count and the feature gap was acceptable. Easy win for the
+budget conversation."
+
+
+SEGMENT C — SMB
+
+S1 (closed-won, ~3.2k EUR ACV, agency, 22 employees)
+"Loved the trial. The onboarding flow was the smoothest I've seen. Card
+went in within a day. Whether we'll still be using it in 12 months is
+another question; the team's already complaining the UI is too complex
+for what we need."
+
+S2 (closed-lost, e-commerce, 14 employees)
+"Started the trial, never finished onboarding. We're using a free Notion
+template instead. Your product is overkill for our team size."
+
+S3 (closed-won, ~2.4k EUR ACV, design studio, 8 employees)
+"Cheap, looks nice, does what we need. I won't lie, if you raise prices
+even slightly we'll switch."
+
+S4 (closed-lost, consultancy, 31 employees)
+"Couldn't justify the per-seat cost. We're doing fine with shared
+Trello boards."

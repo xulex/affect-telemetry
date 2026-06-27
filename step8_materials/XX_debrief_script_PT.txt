@@ -1,0 +1,108 @@
+# Guião de Debrief para o Operador
+
+Este guião é para sua referência, não para o participante. Usado durante o
+wind-down de 3 minutos entre o ecrã de debrief do controlador e a
+despedida. O controlador já captou as respostas estruturadas do debrief;
+isto é a conversa informal.
+
+## CRÍTICO: não revelar o framing de deteção de afeto
+
+Em nenhum momento da conversa mencionar:
+
+- "Afeto", "emoção", "frustração", "engagement", "flow"
+- Que estamos a tentar detetar estados mentais a partir de dados de
+  digitação ou rato
+- Que a decisão da campanha tinha um "gotcha" nos dados do Excel
+- Que estamos a combinar sinais comportamentais e fisiológicos
+- Qualquer referência a UEBA, perfilagem comportamental, ou à
+  metodologia subjacente
+
+A coorte completa precisa de estar naïve a este framing. Um único
+participante a mencionar isto no LinkedIn ou num canal de Slack pode
+contaminar o resto do recrutamento.
+
+Se perguntarem diretamente "qual é o estudo realmente?", desviar com:
+
+> "O briefing completo virá depois de fecharmos o recrutamento. Neste
+> momento estamos a perguntar a toda a gente as mesmas coisas para manter
+> os dados limpos. Posso enviar-lhe o write-up completo quando a recolha
+> terminar em [mês]."
+
+Isto é verdade, não uma mentira. O briefing completo virá no fecho.
+
+
+## O que dizer (o wind-down)
+
+Escolha destas opções consoante o momento permita. Não é preciso cobrir
+todas.
+
+**Reconhecimento.**
+> "Obrigado pelo tempo, é o fim da parte formal."
+
+**Remoção do equipamento.**
+> "Já pode tirar a banda peitoral. O controlador da sessão já terá
+> terminado de guardar tudo quando estiver de pé."
+
+**Verificações informais sobre a experiência.**
+> "Como foi o briefing? O cenário fez sentido?"
+> "Os tempos pareceram razoáveis?"
+> "Houve algo técnico que não funcionou bem para si?"
+
+Se mencionarem questões específicas (fórmula do Excel que não conseguiram
+fazer, ficheiro que não encontraram, frustração com o cliente de email)
+— ouvir, reconhecer, escrever uma linha no journal da sessão. Não
+tentar resolver agora.
+
+**Sobre a recomendação.**
+
+É natural os participantes quererem saber se acertaram a resposta
+"certa". Resista a dar-lhes feedback substantivo. Use:
+
+> "Não há uma única resposta certa — é por isso que corremos o caso da
+> maneira que corremos. Pessoas diferentes abordam os mesmos dados com
+> instintos diferentes, e queremos ver a amplitude."
+
+Isto é verdade e também evita revelar que havia um gotcha específico
+sobre a economia do segmento Enterprise.
+
+**Fecho.**
+> "Se lhe ocorrer alguma coisa nos próximos dias que queira partilhar,
+> mande-me um email. Caso contrário, terá notícias minhas no fecho do
+> estudo."
+
+Depois acompanhe-o à saída.
+
+
+## O que escrever no journal da sessão depois
+
+Uma nota rápida logo após a saída, enquanto está fresco:
+
+- Algo invulgar com o equipamento (desconexão da Polar, erro do OBS,
+  timing estranho, etc.)
+- Algo que o participante disse e queira ter como contexto ao analisar
+  os dados
+- A sua impressão sobre o nível de engagement (enérgico? distraído?
+  visivelmente cansado?) — isso não estará nos dados de outra forma
+- Algo no protocolo que deva mudar para sessões futuras
+
+Mantenha-as num único ficheiro de texto ou markdown por participante.
+Tornam-se parte da trilha de auditoria metodológica.
+
+
+## Se um participante descobrir o framing de deteção de afeto
+
+Acontece. Alguns participantes são perspicazes, ou têm background em
+HCI ou psicologia, ou simplesmente adivinham pelo equipamento.
+
+Se o disserem explicitamente durante o debrief:
+
+> "Boa intuição. Não posso confirmar nem desmentir agora porque
+> precisamos de manter o resto da coorte naïve — mas envio-lhe o
+> write-up completo no fecho do estudo, para ver se acertou."
+
+Depois faça uma nota no journal: "participante suspeitou do ângulo de
+afeto". Isto é dado importante para a secção metodológica — vai
+reportar que fração de participantes descobriu o design.
+
+Não exclua os dados deles por este motivo apenas. A metodologia vai
+reportar isto como covariável, não como desqualificação.

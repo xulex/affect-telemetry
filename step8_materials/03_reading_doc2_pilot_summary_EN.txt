@@ -1,0 +1,75 @@
+MERIDIAN CONSULTING — INTERNAL
+Halestrom Pilot Campaign · Summary of Results · Lisbon Engagement Team
+
+Period:     Q3 (13 weeks)
+Prepared:   Friday last week
+Distribution: Halestrom engagement team, Meridian internal
+
+
+WHAT WE DID
+
+We ran a parallel outreach pilot across Halestrom's three target segments
+to test segment responsiveness under a unified value proposition. Same core
+message, same outbound cadence, roughly proportional spend per segment.
+Pilot ran 13 weeks. Halestrom's existing sales motion (inbound + product
+trials) continued in parallel and is not in scope of this analysis.
+
+The full pilot data is in halestrom_pilot.xlsx. Below is a narrative read
+of what the numbers show. Look at the data yourself; we have not made
+recommendations in this document.
+
+
+WHAT WE OBSERVED
+
+Volume looked different across the three segments, as expected. SMB
+generated the most leads (high inbound volume), Enterprise the fewest
+(longer sales cycles, smaller addressable list). Mid-market sat in the
+middle.
+
+Conversion rates also differed. SMB had the highest top-of-funnel
+engagement (opens, clicks, demo requests) but a notably lower close rate.
+Enterprise had the lowest engagement metrics at every funnel stage but
+higher close rates among those that did engage. Mid-market again sat in
+the middle.
+
+Deal sizes followed the expected ordering: Enterprise deals were
+substantially larger than Mid-market, which were substantially larger
+than SMB. This is consistent with the size of the buying organisations.
+
+Sales cycle length also followed the expected ordering: Enterprise cycles
+were the longest, SMB the shortest.
+
+Customer acquisition cost (CAC) varied considerably across segments and
+is one of the more important numbers in the spreadsheet. We have included
+both blended CAC (total pilot spend / closed deals) and segment-specific
+CAC (segment spend / segment closed deals).
+
+A first read of "deals closed" alone tells one story. A read that
+incorporates deal value and lifetime metrics tells a different one. We
+encourage looking at both before forming a view.
+
+
+CUSTOMER VOICE
+
+Separate document attached with anonymised quotes from a sample of
+pilot-engaged prospects (closed-won, closed-lost, and still-in-flight).
+Worth a read for qualitative texture before drawing conclusions from the
+quantitative side alone.
+
+
+NOTES AND CAVEATS
+
+Pilot duration (13 weeks) is short for Enterprise sales cycles. Some
+Enterprise opportunities are still in pipeline at pilot close. The deals
+closed column reflects only what landed during the pilot window;
+opportunities still active are counted separately.
+
+Halestrom's existing customer base over-indexes on Mid-market. Some of
+the Mid-market closes during the pilot may have been driven by existing
+brand recognition rather than pilot-specific outreach. This is hard to
+disentangle and we have not attempted to.
+
+Anders Lindqvist (CEO) has been clear in steering meetings about his
+preference for Mid-market and SMB. Carla has asked us to keep our
+analysis independent of that prior. Please form your own view from the
+data before reading Carla's memo.

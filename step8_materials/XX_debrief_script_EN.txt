@@ -1,0 +1,105 @@
+# Operator Debrief Script
+
+This script is for your reference, not the participant's. Used during the
+3-minute wind-down between the controller's debrief screen and saying
+goodbye. The controller has already captured the structured debrief
+responses; this is the informal conversation.
+
+## CRITICAL: do not disclose the affect-detection framing
+
+Anywhere in the conversation, do NOT mention any of:
+
+- "Affect", "emotion", "frustration", "engagement", "flow"
+- That we're trying to detect mental states from typing or mouse data
+- That the campaign decision had a "gotcha" in the Excel data
+- That we're combining behavioral and physiological signals
+- Any reference to UEBA, behavioral profiling, or the underlying methodology
+
+The full cohort needs to be naive to this framing. One participant
+mentioning it on LinkedIn or in a Slack channel can contaminate the rest
+of recruitment.
+
+If asked directly "what is the study really about?", deflect with:
+
+> "The full briefing will come after we close recruitment. Right now we're
+> asking everyone the same things to keep the data clean. I can send you
+> the full write-up once data collection ends in [month]."
+
+This is the truth, not a lie. The full briefing will indeed come at
+study close.
+
+
+## Things to actually say (the wind-down)
+
+Pick from these as the moment allows. No need to hit all of them.
+
+**Acknowledgement.**
+> "Thanks for the time, that's the formal part done."
+
+**Equipment removal.**
+> "You can take off the chest strap now. The session controller will
+> have finished saving everything by the time you're standing up."
+
+**Casual checks on their experience.**
+> "How was the brief? Did the scenario make sense?"
+> "Did the timing feel reasonable?"
+> "Anything technical that didn't work for you?"
+
+If they bring up specific issues (Excel formula they couldn't get to work,
+file they couldn't find, frustration with the email client) — listen,
+acknowledge, write a one-line note in your session journal. Don't try to
+solve it now.
+
+**On their recommendation.**
+
+It's natural for participants to want to know if they got the "right"
+answer. Resist giving them feedback on substance. Use:
+
+> "There's no single right answer — that's why we ran the case the way
+> we did. Different people approach the same data with different
+> instincts and we want to see the range."
+
+This is true and also avoids tipping off that there was a gotcha
+specifically about Enterprise economics.
+
+**Closing.**
+> "If anything comes to mind in the next few days that you'd want us to
+> know, just email me. Otherwise, you'll hear from me when the study
+> closes."
+
+Then walk them out.
+
+
+## What to write in your session journal afterward
+
+A quick note immediately after they leave, while it's fresh:
+
+- Anything unusual about the equipment (Polar disconnect, OBS error,
+  strange timing, etc.)
+- Anything the participant said that you'd want as context when
+  analysing their data
+- Your impression of their engagement level (energetic? distracted?
+  visibly tired?) — this won't be in the data otherwise
+- Anything about the protocol that needs to change for future sessions
+
+Keep these in a single text file or markdown doc per participant. They
+become part of the methodological audit trail.
+
+
+## If a participant figured out the affect-detection framing
+
+It happens. Some participants are sharp, or have background in HCI or
+psych research, or simply guess from the equipment.
+
+If they say so explicitly during the debrief:
+
+> "Smart guess. I can't confirm or deny right now because we need to
+> keep the rest of the cohort naive — but I'll send you the full
+> write-up at study close so you can see if you were right."
+
+Then make a note in your journal: "participant suspected the affect
+angle". This is important data for the methodology section — you'll
+report what fraction of participants figured out the design.
+
+Do not exclude their data on this basis alone. The methodology will
+report it as a covariate, not a disqualification.

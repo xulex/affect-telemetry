@@ -1,0 +1,19 @@
+# Acquisition + analysis environment (macOS lab Mac, Python 3.11)
+# Create with:  python3.11 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+#
+# Facial Action Unit extraction (stream 6) runs in a separate GPU environment;
+# see requirements-au.txt and the README.
+
+# --- live acquisition streams ---
+bleak                      # Polar H10 heart rate / RR intervals over BLE
+pynput                     # keystroke timing and mouse dynamics (timing only, never content)
+pyobjc-framework-Cocoa     # NSWorkspace application-focus capture (macOS)
+obsws-python               # OBS screen + webcam recording over WebSocket
+
+# --- post-session analysis ---
+numpy<1.24
+scipy<1.14
+pandas
+matplotlib
+scikit-learn
+openpyxl                   # reads the case spreadsheet
