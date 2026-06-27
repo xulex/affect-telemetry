@@ -1,5 +1,8 @@
 # I'm Not a Robot
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20976219.svg)](https://doi.org/10.5281/zenodo.20976219)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **An open-source pipeline that repurposes cybersecurity UEBA telemetry to sense affect and protect Flow in knowledge work.**
 
 reCAPTCHA already reads whether you are human from the way you move the mouse and

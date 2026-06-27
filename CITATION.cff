@@ -25,6 +25,7 @@ keywords:
   - human-computer interaction
 version: "1.0.0"
 date-released: "2026-06-13"
+doi: "10.5281/zenodo.20976219"
 references:
   - type: thesis
     title: "I'm Not a Robot: repurposing UEBA telemetry to sense affect and protect Flow in knowledge work"
@@ -35,5 +36,3 @@ references:
       name: "Steinbeis University / Berlin School of Creative Leadership (BSCL)"
     thesis-type: "Master's thesis (eMBA)"
     year: 2026
-# When the Zenodo archive is minted, add:
-# doi: "10.5281/zenodo.XXXXXXX"
