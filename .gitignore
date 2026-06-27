@@ -57,9 +57,6 @@ facial_au*.csv
 # --- Participant PII (never leaves machine) ---
 participants/
 
-# --- Project docs (local reference only) ---
-\!PROJDOCS/
-
 # --- Claude Code local config ---
 .claude/
 
