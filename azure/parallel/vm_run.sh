@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Run ONE session on this GPU VM. Invoked by tmux or manually.
 #
-#   SESSION_ID=P08_20260605T091258Z bash ~/thesis-phase1/azure/parallel/vm_run.sh
+#   SESSION_ID=<SESSION_ID> bash ~/thesis-phase1/azure/parallel/vm_run.sh
 set -euo pipefail
 
 : "${SESSION_ID:?Set SESSION_ID}"

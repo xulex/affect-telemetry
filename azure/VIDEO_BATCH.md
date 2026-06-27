@@ -13,12 +13,12 @@ Layer 1 (`detect_ai_usage.py`) flags **6 sessions** with `needs_video_review=Tru
 
 | Session | Browser time |
 |---------|----------------|
-| P06_20260602T214915Z | ~9 min Safari |
-| P06_20260606T105941Z | ~9 min |
-| P06_20260606T123253Z | ~10 min |
-| P11_20260606T140334Z | ~7 min |
-| P14_20260611T091341Z | ~7 min |
-| P16_20260611T133833Z | ~5 min |
+| <SESSION_ID> | ~9 min Safari |
+| <SESSION_ID> | ~9 min |
+| <SESSION_ID> | ~10 min |
+| <SESSION_ID> | ~7 min |
+| <SESSION_ID> | ~7 min |
+| <SESSION_ID> | ~5 min |
 
 Optional: P12, P15 (heavy Safari + osquery, no native focus time).
 
@@ -39,7 +39,7 @@ Wall time per session on CPU: **~5–15 min** (depends on browser-window count).
 | Auth | Same SSH key as AU VMs |
 | Disk | 64–128 GB |
 
-Create 1–6 VMs, or reuse **vm-au-1** (`158.158.74.108`) when GPU is idle.
+Create 1–6 VMs, or reuse **vm-au-1** (`<VM_PUBLIC_IP>`) when GPU is idle.
 
 No NVIDIA driver needed for video OCR.
 
@@ -55,8 +55,8 @@ cp /Users/Shared/thesis-phase1/azure/parallel/vm_video_assignments.env.example \
 Edit — one session per VM line:
 
 ```
-158.158.74.108  P06_20260602T214915Z  vm-vid-1
-<IP-2>          P11_20260606T140334Z  vm-vid-2
+<VM_PUBLIC_IP>  <SESSION_ID>  vm-vid-1
+<IP-2>          <SESSION_ID>  vm-vid-2
 ...
 ```
 
@@ -76,7 +76,7 @@ bash /Users/Shared/thesis-phase1/azure/parallel/mac_prepare_video_reports.sh
 chmod +x /Users/Shared/thesis-phase1/azure/parallel/*video*.sh
 chmod +x /Users/Shared/thesis-phase1/azure/install_video_ubuntu.sh
 
-export KEY=~/.ssh/xulex-keyAzure.pem
+export KEY=~/.ssh/azure-au.pem
 bash /Users/Shared/thesis-phase1/azure/parallel/mac_upload_video_all.sh
 ```
 
@@ -89,7 +89,7 @@ Uploads ~250 MB `recording.mp4` + `ai_usage_report.json` per session.
 Runs automatically on first `vm_video_run.sh`, or manually:
 
 ```bash
-ssh -i ~/.ssh/xulex-keyAzure.pem xulex@<IP>
+ssh -i ~/.ssh/azure-au.pem azureuser@<IP>
 bash ~/thesis-phase1/azure/install_video_ubuntu.sh
 ```
 
@@ -114,7 +114,7 @@ bash /Users/Shared/thesis-phase1/azure/parallel/mac_status_video_all.sh
 Attach on one VM:
 
 ```bash
-ssh -i $KEY xulex@<IP>
+ssh -i $KEY azureuser@<IP>
 tmux attach -t video
 ```
 
@@ -164,10 +164,10 @@ brew install ffmpeg tesseract
 pip install pillow pytesseract
 
 python3 /Users/Shared/thesis-phase1/analysis/detect_ai_usage.py \
-  /Users/Shared/thesis-phase1/sessions/P11_20260606T140334Z --write-json
+  /Users/Shared/thesis-phase1/sessions/<SESSION_ID> --write-json
 
 python3 /Users/Shared/thesis-phase1/analysis/process_ai_video.py \
-  /Users/Shared/thesis-phase1/sessions/P11_20260606T140334Z --write-json
+  /Users/Shared/thesis-phase1/sessions/<SESSION_ID> --write-json
 ```
 
 ---

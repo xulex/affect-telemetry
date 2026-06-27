@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# Upload to VMs 2–4 only (skip 158.158.74.108 if P06 already done).
+# Upload to VMs 2–4 only (skip the first VM IP if already uploaded).
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=mac_common.sh
 source "$SCRIPT_DIR/mac_common.sh"
 
-SKIP_IP="${SKIP_IP:-158.158.74.108}"
+SKIP_IP="${SKIP_IP:-}"
 
 while IFS= read -r line || [[ -n "$line" ]]; do
   line="${line//$'\r'/}"

@@ -27,10 +27,10 @@ Mac sessions/<ID>/facial_au.csv
 
 ## Step 0 — Stop the slow sequential job (if still running)
 
-On **158.158.74.108**:
+On **<VM_PUBLIC_IP>**:
 
 ```bash
-ssh -i ~/.ssh/xulex-keyAzure.pem xulex@158.158.74.108
+ssh -i ~/.ssh/azure-au.pem azureuser@<VM_PUBLIC_IP>
 tmux attach -t au_batch   # or au
 # Ctrl+C to stop current session
 tmux kill-session -t au_batch 2>/dev/null || tmux kill-session -t au 2>/dev/null || true
@@ -42,7 +42,7 @@ Resume later on a dedicated VM if needed; checkpoints live in `/tmp/colab_work/<
 
 ## Step 1 — Create 3 more GPU VMs (Portal)
 
-You have **vm-au-1** at `158.158.74.108`. Create **3 more** identical VMs:
+You have **vm-au-1** at `<VM_PUBLIC_IP>`. Create **3 more** identical VMs:
 
 | Setting | Value |
 |---------|--------|
@@ -60,7 +60,7 @@ Note each **Public IP**. Request GPU quota if size is greyed out (4 vCPUs × 4 V
 **First boot on each new VM** — install GPU driver once:
 
 ```bash
-ssh -i ~/.ssh/xulex-keyAzure.pem xulex@<NEW_IP>
+ssh -i ~/.ssh/azure-au.pem azureuser@<NEW_IP>
 sudo apt-get update && sudo apt-get install -y linux-headers-$(uname -r) build-essential dkms
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
@@ -84,10 +84,10 @@ cp /Users/Shared/thesis-phase1/azure/parallel/vm_assignments.env.example \
 Edit `vm_assignments.env` — **one line per VM** (IP + session):
 
 ```
-158.158.74.108  P06_20260602T214915Z  vm-au-1
-<IP-2>          P08_20260605T091258Z  vm-au-2
-<IP-3>          P09_20260605T095250Z  vm-au-3
-<IP-4>          P10_20260605T120652Z  vm-au-4
+<VM_PUBLIC_IP>  <SESSION_ID>  vm-au-1
+<IP-2>          <SESSION_ID>  vm-au-2
+<IP-3>          <SESSION_ID>  vm-au-3
+<IP-4>          <SESSION_ID>  vm-au-4
 ```
 
 ---
@@ -98,7 +98,7 @@ Edit `vm_assignments.env` — **one line per VM** (IP + session):
 chmod +x /Users/Shared/thesis-phase1/azure/parallel/*.sh
 
 export THESIS=/Users/Shared/thesis-phase1
-export KEY=~/.ssh/xulex-keyAzure.pem
+export KEY=~/.ssh/azure-au.pem
 
 bash /Users/Shared/thesis-phase1/azure/parallel/mac_upload_all.sh
 ```
@@ -122,7 +122,7 @@ bash /Users/Shared/thesis-phase1/azure/parallel/mac_status_all.sh
 Or attach to one VM:
 
 ```bash
-ssh -i ~/.ssh/xulex-keyAzure.pem xulex@158.158.74.108
+ssh -i ~/.ssh/azure-au.pem azureuser@<VM_PUBLIC_IP>
 tmux attach -t au
 ```
 
@@ -172,7 +172,7 @@ Outputs land in:
 
 | Issue | Fix |
 |-------|-----|
-| SSH key permissions | `chmod 400 ~/.ssh/xulex-keyAzure.pem` |
+| SSH key permissions | `chmod 400 ~/.ssh/azure-au.pem` |
 | `kornia_rs` / no venv | `bash ~/thesis-phase1/azure/install_feat_ubuntu.sh` on that VM |
 | One VM failed | Re-run upload + `mac_start_all.sh` for that line only |
 | Resume chunk | Re-run `vm_run.sh`; skips existing `chunk_*.csv` |

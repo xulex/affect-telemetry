@@ -3,13 +3,13 @@
 set -euo pipefail
 
 THESIS="${THESIS:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)}"
-KEY="${KEY:-$HOME/.ssh/xulex-keyAzure.pem}"
+KEY="${KEY:-$HOME/.ssh/azure-au.pem}"
 VM_USER="${VM_USER:-xulex}"
 ASSIGNMENTS="${ASSIGNMENTS:-$THESIS/azure/parallel/vm_assignments.env}"
 
 if [[ ! -f "$KEY" ]]; then
   echo "ERROR: SSH key not found: $KEY"
-  echo "  cp $THESIS/azure/xulex-keyAzure.pem ~/.ssh/ && chmod 400 ~/.ssh/xulex-keyAzure.pem"
+  echo "  cp <your-azure-key>.pem ~/.ssh/azure-au.pem && chmod 400 ~/.ssh/azure-au.pem"
   exit 1
 fi
 

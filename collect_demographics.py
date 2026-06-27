@@ -14,7 +14,7 @@ schema, so the analysis cannot tell the difference:
 Usage:
     python collect_demographics.py P09
     python collect_demographics.py P09 --language pt
-    python collect_demographics.py P09 --session-id P09_20260603T....Z
+    python collect_demographics.py <PID> --session-id <SESSION_ID>
 
 If --session-id is omitted, the script finds the participant's most recent
 session directory and uses that ID for the record's session_id field.

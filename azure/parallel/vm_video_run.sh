@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Run AI video OCR for ONE session on this VM. Invoked by tmux or manually.
 #
-#   SESSION_ID=P11_20260606T140334Z bash ~/thesis-phase1/azure/parallel/vm_video_run.sh
+#   SESSION_ID=<SESSION_ID> bash ~/thesis-phase1/azure/parallel/vm_video_run.sh
 set -euo pipefail
 
 : "${SESSION_ID:?Set SESSION_ID}"

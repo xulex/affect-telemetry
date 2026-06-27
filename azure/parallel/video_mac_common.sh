@@ -3,7 +3,7 @@
 set -euo pipefail
 
 THESIS="${THESIS:-$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)}"
-KEY="${KEY:-$HOME/.ssh/xulex-keyAzure.pem}"
+KEY="${KEY:-$HOME/.ssh/azure-au.pem}"
 VM_USER="${VM_USER:-xulex}"
 ASSIGNMENTS="${ASSIGNMENTS:-$THESIS/azure/parallel/vm_video_assignments.env}"
 
