@@ -31,6 +31,16 @@ Six time-aligned streams on one machine, on a shared UTC clock at a one-per-seco
 
 Streams 1 to 5 are live; stream 6 is derived afterward from the recording.
 
+![Experimental setup and data acquisition pipeline: a participant at a desk wearing a Polar H10, with five live streams (heart rate, input dynamics, application focus, osquery process/file events, and screen+webcam recording) flowing into a per-session folder, all aligned to one shared UTC one-per-second grid, plus a sixth facial Action Unit stream derived afterward in the EU cloud.](docs/images/data-acquisition-pipeline.png)
+
+### Facial Action Units (stream 6)
+
+The webcam track is processed after the session on a GPU: frames are sampled,
+faces detected and aligned, and per-frame Action Unit intensities and emotion
+labels are written to `facial_au.csv`, re-anchored to the session's UTC clock.
+
+![Facial Action Unit extraction pipeline: recording.mp4 is frame-sampled, then RetinaFace detects faces, MobileFaceNet finds landmarks, faces are aligned with HOG and geometry features, XGBoost estimates 20 Action Unit intensities, ResMaskingNet predicts 7 emotion labels, and the result is timestamp-reconstructed into facial_au.csv.](docs/images/facial-au-pipeline.png)
+
 ## Repository layout
 
 | Path | Purpose |
@@ -103,6 +113,17 @@ expressed as a deviation from the participant's own low-demand baseline, because
 between-person variance otherwise swamps the within-person signal. The pooled
 scripts (`analyze_baseline_pooled.py`, `analyze_recovery.py`) aggregate across
 sessions.
+
+### Detecting AI-tool use
+
+A separate three-layer detector (`analysis/detect_ai_usage.py` and friends)
+reconstructs whether, and with which tool, a participant used an AI assistant
+during the task. It merges three independent signals into one per-session
+verdict: Layer 1 the focused-app and process logs, Layer 2 a time-windowed slice
+of browser history matched against known assistant domains, and Layer 3
+retrospective OCR of the screen recording.
+
+![Three-layer AI-tool-use detector: Layer 1 reads focused-app, osquery, and clock logs; Layer 2 slices Safari history within the locked time window; Layer 3 runs screen-and-UI OCR on the recording; the three are merged into a per-session verdict (used AI, which tool, how long) written to ai_usage_summary.json.](docs/images/ai-use-detector.png)
 
 ## The study it was built for
 
